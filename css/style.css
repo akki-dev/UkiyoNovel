@@ -1,0 +1,331 @@
+:root {
+    --primaryo: #1B55D0;
+    --secundary: #3978F9;
+    --tree: #99B8F9;
+    --titles: #151724;
+    --texto: #202543;
+    --parrafo: #3D3D3D;
+    --body: #FFFFFF;
+    --cuerpo: #F6F6F6;
+}
+
+/* ----------------------------- Padding Bottom ----------------------------- */
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+/* ------------------------------- Padddin Top ------------------------------ */
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+/* --------------------------------- Margin --------------------------------- */
+.margin-0{
+    margin: 0px;
+}
+
+
+
+/* -------------------------------- font size ------------------------------- */
+.fs-16{
+    font-size: 16px !important;
+}
+
+.fs-18{
+    font-size: 18px !important;
+}
+
+.fs-20{
+    font-size: 20px !important;
+}
+
+.fs-24{
+    font-size: 24px !important;
+}
+
+.fs-30{
+    font-size: 30px !important;
+}
+
+.fs-40{
+    font-size: 40px !important;
+}
+
+.fs-60{
+    font-size: 60px !important;
+}
+
+.fs-80{
+    font-size: 80px !important;
+}
+
+/* ------------------------------- Style Texto ------------------------------ */
+.fw-medium{
+    font-weight: 400 !important;
+}
+
+.fw-semibold{
+    font-weight: 500 !important;
+}
+
+.fw-bold{
+    font-weight: 700 !important;
+}
+
+/* ------------------------------- Color Texto ------------------------------ */
+.cf-white{
+    color: var(--body) !important;
+}
+
+.cf-blue{
+    color: var(--primaryo) !important;
+}
+
+
+/* --------------------------------- Parrafo -------------------------------- */
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: var(--parrafo);
+}
+
+/* ---------------------------- H1 H2 H3 H4 H5 H6 --------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: var(--titles);
+}
+
+/* --------------------------------- Botones -------------------------------- */
+
+.btn-primaryo{
+    background-color: var(--primaryo) !important;
+    color : var(--body) !important;
+}
+
+.btn-secund{
+    background-color: var(--body) !important;
+    color: var(--titles) !important;
+}
+
+.btn-primaryo:hover{
+    background-color: var(--body) !important;
+    border: var(--primaryo) solid 2px !important;
+    color : var(--primaryo) !important;
+}
+
+.btn-secund:hover{
+    background-color: var(--primaryo) !important;
+    border: var(--body) solid 2px !important;
+    color : var(--body) !important;
+}
+
+/* ---------------------------------- logo ---------------------------------- */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--titles);
+}
+
+.navegacion{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    color: var(--titles) !important;
+}
+
+.navegacion2{
+    font-family: 'Roboto', sans-serif;
+    color: var(--titles) !important;
+}
+
+/* ---------------------------------- Body ---------------------------------- */
+
+body {
+    background: var(--body);
+}
+
+/* ------------------------------ Style General ----------------------------- */
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+.navbar-area{
+    background: var(--body);
+}
+
+.img-contenedor{
+    margin: auto 0;
+}
+
+
+.banner-img,
+.escribir-img{
+    padding: 0 !important;
+}
+
+.banner-title{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 65px;
+    padding-bottom: 100px;
+}
+
+.corrusel{
+    background: var(--cuerpo);
+}
+
+.carousel-caption{
+    left: 50% !important;
+    text-align: left !important;
+    padding: auto 0 !important;
+}
+
+.actua-title{
+     max-width: 500px;
+}
+
+.escribir-area{
+    background: var(--primaryo);
+}
+
+.escribir-input{
+    background: transparent !important;
+    border: 2px var(--body) solid !important;
+    margin-bottom: 10px;
+}
+
+.escribir-input::placeholder{
+    color: var(--body) !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+.escribir-conten{
+    max-width: 412px;
+    padding-top: 80px;
+}
+.capitulo-img{
+    max-height: 262px;
+    margin: 0 auto;
+}
+
+.capitulo-area,
+.footer-area{
+    background: var(--cuerpo);
+}
+
+.card-capi{
+    border: 0 !important;
+    background: transparent !important;
+}
+
+.descubrir-title{
+    max-width: 200px;
+}
+
+.card-descubrir{
+    border: var(--primaryo) solid 2px !important;
+}
+
+.card-body-descubrir{
+    padding: 50px 50px 20px 50px !important;
+}
+
+.descubrir-svg{
+    max-width: 35px;
+}
+.footer-img{
+    max-width: 60px;
+    margin: 0 auto;
+}
+
+.dropdown-divider{
+    border-top: 2px solid var(--parrafo) !important;
+}
