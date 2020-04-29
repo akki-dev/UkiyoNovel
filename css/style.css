@@ -327,7 +327,6 @@ body {
 }
 
 
-
 .capitulo-area,
 .footer-area {
     background: var(--cuerpo);
@@ -586,6 +585,10 @@ body {
         padding-bottom: 70px !important;
     }
 
+    .fondOscuro img{
+        width: 35% !important;
+    }
+
 
 }
 
@@ -705,6 +708,10 @@ body {
     /* ----------------------------- CAPITULOS-AREA ----------------------------- */
     .capitulo-title {
         padding-bottom: 0 !important;
+    }
+
+    .fondOscuro img{
+        width: 60% !important;
     }
 
     /* ----------------------------- DESCUBRIR AREA ----------------------------- */
