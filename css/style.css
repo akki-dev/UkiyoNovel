@@ -102,70 +102,68 @@
 }
 
 /* --------------------------------- Margin --------------------------------- */
-.margin-0{
+.margin-0 {
     margin: 0px;
 }
 
-
-
 /* -------------------------------- font size ------------------------------- */
-.fs-16{
+.fs-16 {
     font-size: 16px !important;
 }
 
-.fs-18{
+.fs-18 {
     font-size: 18px !important;
 }
 
-.fs-20{
+.fs-20 {
     font-size: 20px !important;
 }
 
-.fs-24{
+.fs-24 {
     font-size: 24px !important;
 }
 
-.fs-30{
+.fs-30 {
     font-size: 30px !important;
 }
 
-.fs-40{
+.fs-40 {
     font-size: 40px !important;
 }
 
-.fs-60{
+.fs-60 {
     font-size: 60px !important;
 }
 
-.fs-80{
+.fs-80 {
     font-size: 80px !important;
 }
 
 /* ------------------------------- Style Texto ------------------------------ */
-.fw-medium{
+.fw-medium {
     font-weight: 400 !important;
 }
 
-.fw-semibold{
+.fw-semibold {
     font-weight: 500 !important;
 }
 
-.fw-bold{
+.fw-bold {
     font-weight: 700 !important;
 }
 
 /* ------------------------------- Color Texto ------------------------------ */
-.cf-white{
+.cf-white {
     color: var(--body) !important;
 }
 
-.cf-blue{
+.cf-blue {
     color: var(--primaryo) !important;
 }
 
 
 /* --------------------------------- Parrafo -------------------------------- */
-p{
+p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: var(--parrafo);
@@ -177,7 +175,7 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: var(--titles);
@@ -185,43 +183,45 @@ h6{
 
 /* --------------------------------- Botones -------------------------------- */
 
-.btn-primaryo{
+.btn-primaryo {
     background-color: var(--primaryo) !important;
-    color : var(--body) !important;
+    border: var(--primaryo) solid 2px !important;
+    color: var(--body) !important;
 }
 
-.btn-secund{
+.btn-secund {
     background-color: var(--body) !important;
+    border: var(--body) solid 2px !important;
     color: var(--titles) !important;
 }
 
-.btn-primaryo:hover{
+.btn-primaryo:hover {
     background-color: var(--body) !important;
     border: var(--primaryo) solid 2px !important;
-    color : var(--primaryo) !important;
+    color: var(--primaryo) !important;
 }
 
-.btn-secund:hover{
+.btn-secund:hover {
     background-color: var(--primaryo) !important;
     border: var(--body) solid 2px !important;
-    color : var(--body) !important;
+    color: var(--body) !important;
 }
 
 /* ---------------------------------- logo ---------------------------------- */
-.logo{
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-style: italic;
     color: var(--titles);
 }
 
-.navegacion{
+.navegacion {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
     color: var(--titles) !important;
 }
 
-.navegacion2{
+.navegacion2 {
     font-family: 'Roboto', sans-serif;
     color: var(--titles) !important;
 }
@@ -233,99 +233,504 @@ body {
 }
 
 /* ------------------------------ Style General ----------------------------- */
-.navbar-collapse{
+.navbar-collapse {
     flex-grow: 0 !important;
 }
-.navbar-area{
+
+.navbar-area {
     background: var(--body);
 }
 
-.img-contenedor{
+.img-contenedor {
     margin: auto 0;
 }
 
 
 .banner-img,
-.escribir-img{
+.escribir-img {
     padding: 0 !important;
 }
 
-.banner-title{
+.banner-title {
     max-width: 600px;
     margin: 0 auto;
     padding-left: 65px;
     padding-bottom: 100px;
 }
 
-.corrusel{
+.corrusel {
     background: var(--cuerpo);
 }
 
-.carousel-caption{
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel-caption {
     left: 50% !important;
     text-align: left !important;
     padding: auto 0 !important;
 }
 
-.actua-title{
-     max-width: 500px;
+.actua-title {
+    max-width: 500px;
 }
 
-.escribir-area{
+.escribir-area {
     background: var(--primaryo);
 }
 
-.escribir-input{
+.escribir-input {
     background: transparent !important;
     border: 2px var(--body) solid !important;
     margin-bottom: 10px;
 }
 
-.escribir-input::placeholder{
+.escribir-input::placeholder {
     color: var(--body) !important;
     font-size: 20px !important;
     font-weight: 400 !important;
 }
 
-.escribir-conten{
+.escribir-conten {
     max-width: 412px;
     padding-top: 80px;
 }
-.capitulo-img{
+
+.capitulo-img {
     max-height: 262px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
+.fondOscuro{
+    /*-Fixed es para que el elemento se visualice en la pantalla-*/
+    position: fixed; 
+    background: #2025439c;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.fondOscuro img{
+    border: solid 5px var(--texto);
+    width: 20%;
+}
+
+
+
 .capitulo-area,
-.footer-area{
+.footer-area {
     background: var(--cuerpo);
 }
 
-.card-capi{
+.card-capi {
     border: 0 !important;
     background: transparent !important;
 }
 
-.descubrir-title{
+.descubrir-title {
     max-width: 200px;
 }
 
-.card-descubrir{
+.card-descubrir {
     border: var(--primaryo) solid 2px !important;
+    max-width: 18rem;
 }
 
-.card-body-descubrir{
+.card-body-descubrir {
     padding: 50px 50px 20px 50px !important;
 }
 
-.descubrir-svg{
+.descubrir-svg {
     max-width: 35px;
 }
-.footer-img{
+
+.footer-img {
     max-width: 60px;
     margin: 0 auto;
 }
 
-.dropdown-divider{
+.dropdown-divider {
     border-top: 2px solid var(--parrafo) !important;
+}
+
+/* ---------------------------- ADAPTACIÓN MOVIL ---------------------------- */
+
+@media (max-width: 1200px) {
+
+    /* ------------------------------- BANNER-AREA ------------------------------ */
+    .banner-title {
+        max-width: 500px !important;
+        margin: 0 auto;
+        padding-left: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .banner-title h1 {
+        font-size: 70px !important;
+    }
+
+    .banner-title h3 {
+        font-size: 25px !important;
+    }
+
+    .banner-title p {
+        font-size: 22px !important;
+    }
+
+    /* --------------------------- ACTUALIZACION AREA --------------------------- */
+    .actua-respo {
+        font-size: 50px !important;
+    }
+
+    .actua-title {
+        max-width: 400px;
+    }
+
+    .actua-img {
+        max-width: 300px !important;
+    }
+
+    /* ------------------------------ ESCRIBIR AREA ----------------------------- */
+
+    .escribir-conten h1 {
+        font-size: 50px !important;
+    }
+
+    .escribir-conten {
+        max-width: 400px !important;
+        padding-top: 0px !important;
+    }
+
+    /* ----------------------------- CAPITULOS-AREA ----------------------------- */
+    .capitulo-title,
+    .footer-title {
+        font-size: 35px !important;
+    }
+
+    .capitulo-contend {
+        font-size: 18px !important;
+    }
+
+    /* ----------------------------- DESCUBRIR AREA ----------------------------- */
+    .descrubrir-title {
+        font-size: 35px !important;
+    }
+
+    /* ------------------------------- FOOTER AREA ------------------------------ */
+    .footer-area h4{
+        font-size: 22px !important;
+    }
+    .footer-area p{
+        font-size: 17px !important;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    /* ------------------------------- BANNER-AREA ------------------------------ */
+    .banner-title {
+        max-width: 450px !important;
+        padding-left: 30px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .banner-title h1 {
+        font-size: 65px !important;
+    }
+
+    .banner-title h3 {
+        font-size: 23px !important;
+    }
+
+    .banner-title p {
+        font-size: 20px !important;
+    }
+
+    /* --------------------------- ACTUALIZACION AREA --------------------------- */
+    .actua-respo {
+        font-size: 45px !important;
+    }
+
+    .actua-img {
+        max-width: 300px !important;
+    }
+
+    .actua-title {
+        padding: 20px !important;
+    }
+
+    .actua-title h5 {
+        font-size: 28px !important;
+    }
+
+    .actua-title p {
+        font-size: 15px !important;
+    }
+
+    /* ------------------------------ ESCRIBIR AREA ----------------------------- */
+    .escribir-conten h1 {
+        font-size: 45px !important;
+    }
+
+    /* ----------------------------- CAPITULOS-AREA ----------------------------- */
+    .capitulo-title {
+        font-size: 33px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .capitulo-contend {
+        font-size: 16px !important;
+    }
+
+    .capitulo-name {
+        font-size: 18px !important;
+    }
+
+    /* ----------------------------- DESCUBRIR AREA ----------------------------- */
+    .descrubrir-title {
+        font-size: 33px !important;
+    }
+
+    .card-body-descubrir {
+        padding: 30px 30px 15px 30px !important;
+    }
+
+    .car-2 {
+        padding-bottom: 50px !important;
+    }
+
+    /* ------------------------------- FOOTER AREA ------------------------------ */
+    .footer-title {
+        font-size: 33px !important;
+    }
+
+}
+
+@media (max-width: 920px) {
+
+    /* ------------------------------- BANNER-AREA ------------------------------ */
+    .banner-title {
+        max-width: 450px !important;
+        padding-left: 30px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .banner-title h1 {
+        font-size: 60px !important;
+    }
+
+    .banner-title h3 {
+        font-size: 20px !important;
+    }
+
+    .banner-title p {
+        font-size: 18px !important;
+    }
+
+    .banner-title>.btn-lg {
+        padding: .3rem 1rem !important;
+    }
+
+    /* --------------------------- ACTUALIZACION AREA --------------------------- */
+    .actua-respo {
+        font-size: 40px !important;
+    }
+
+    .actua-title {
+        padding: 22px !important;
+    }
+
+    .actua-title h5 {
+        font-size: 25px !important;
+    }
+
+    .actua-title p {
+        font-size: 14px !important;
+    }
+
+    /* ------------------------------ ESCRIBIR AREA ----------------------------- */
+    .escribir-conten {
+        padding-top: 20px !important;
+    }
+
+    .escribir-conten h1 {
+        font-size: 40px !important;
+    }
+
+    .escribir-spam {
+        padding-top: 40px !important;
+    }
+
+    /* ----------------------------- DESCUBRIR AREA ----------------------------- */
+    .descrubrir-title {
+        font-size: 33px !important;
+    }
+
+    .card-body-descubrir {
+        padding: 25px 25px 10px 25px !important;
+    }
+
+    .car-2 {
+        padding-bottom: 70px !important;
+    }
+
+
+}
+
+@media (max-width: 810px) {
+
+    /* ------------------------------- BANNER-AREA ------------------------------ */
+    .banner-title {
+        max-width: 400px !important;
+        padding-left: 20px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .banner-title h1 {
+        font-size: 55px !important;
+    }
+
+    .banner-title h3 {
+        font-size: 20px !important;
+    }
+
+    .banner-title p {
+        font-size: 17px !important;
+    }
+
+    /* --------------------------- ACTUALIZACION AREA --------------------------- */
+    .actua-respo {
+        font-size: 38px !important;
+    }
+
+    .actua-img {
+        max-width: 280px !important;
+    }
+
+    .actua-title {
+        padding: 22px !important;
+    }
+
+    /* ------------------------------ ESCRIBIR AREA ----------------------------- */
+
+    .escribir-conten h1 {
+        font-size: 38px !important;
+    }
+
+    .escribir-conten button {
+        font-size: 16px !important;
+    }
+
+    .escribir-conten input {
+        font-size: 16px !important;
+    }
+
+/* ------------------------------- FOOTER AREA ------------------------------ */
+.footer-area h5{
+    font-size: 17px !important;
+}
+
+}
+
+@media (max-width: 767.5px) {
+
+    /* ------------------------------- BANNER-AREA ------------------------------ */
+    .banner-title {
+        max-width: 460px !important;
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .banner-conter {
+        position: absolute !important;
+    }
+
+    .banner-area .banner-img {
+        z-index: -1;
+    }
+
+    .banner-color {
+        background: #2025439c;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .banner-title h1,
+    .banner-title h3,
+    .banner-title p {
+        color: var(--body);
+    }
+
+    /* --------------------------- ACTUALIZACION AREA --------------------------- */
+    .actua-img {
+        max-width: 280px !important;
+        margin: 0 auto;
+    }
+
+    .actua-title {
+        padding: 22px !important;
+        margin: 0 auto;
+    }
+
+    .btn-primaryo:hover {
+        background-color: transparent !important;
+        border: var(--body) solid 2px !important;
+        color: var(--body) !important;
+    }
+
+    /* ------------------------------ ESCRIBIR AREA ----------------------------- */
+    .escribir-img {
+        display: none !important;
+    }
+
+    .escribir-conten {
+        padding: 50px 0px !important;
+        max-width: 600px !important;
+        margin: 0 auto;
+    }
+
+    /* ----------------------------- CAPITULOS-AREA ----------------------------- */
+    .capitulo-title {
+        padding-bottom: 0 !important;
+    }
+
+    /* ----------------------------- DESCUBRIR AREA ----------------------------- */
+    .descrubrir-title {
+        padding-bottom: 0 !important;
+    }
+
+    .card-descubrir3 {
+        margin-top: 20px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+}
+
+
+@media (max-width: 350px) {
+    .banner-title h1 {
+        font-size: 50px !important;
+    }
+
+    .banner-title>.btn-lg {
+        padding: .2rem 1rem !important;
+    }
+
+    .actua-respo {
+        font-size: 35px !important;
+    }
 }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- Required meta tags -->
@@ -16,8 +16,6 @@
     <link
         href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
         rel="stylesheet">
-
-
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -50,10 +48,9 @@
                             Novelas
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item navegacion2 fs-16" href="#">Action</a>
-                            <a class="dropdown-item navegacion2 fs-16" href="#">Another action</a>
-                            <div class="dropdown-divider navegacion2 fs-16"></div>
-                            <a class="dropdown-item navegacion2 fs-16" href="#">Something else here</a>
+                            <a class="dropdown-item navegacion2 fs-16" href="#">Titulo</a>
+                            <a class="dropdown-item navegacion2 fs-16" href="#">Genero</a>
+                            <a class="dropdown-item navegacion2 fs-16" href="#">Autor</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -75,7 +72,7 @@
     <section class="banner-area" id="banner-area">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 align-self-center">
+                <div class="col-ls-6 col-md-6 col-sm-12 align-self-center banner-conter">
                     <div class="d-flex justify-content-end">
                         <div class="banner-title">
                             <h3 class="fs-30">Bienvenido</h3>
@@ -85,7 +82,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 banner-img">
+                <div class="col-ls-6 col-md-6 col-sm-12 banner-img">
+                    <div class="banner-color">
+                    </div>
                     <div class="img-contenedor">
                         <img src="img/banner-img.jpg" alt="" srcset="" class="img-fluid">
                     </div>
@@ -98,18 +97,17 @@
     <!-- Start Actualización Area -->
     <section class="actualizacion-area pt-100 pb-100" id="actualizacion-area">
         <div class="container">
-            <h1 class="fs-60 pb-40 fw-bold text-center">Últimas Actualizaciones</h1>
+            <h1 class="fs-60 pb-40 fw-bold text-center actua-respo">Últimas Actualizaciones</h1>
             <div id="carouselExampleCaptions" class="carousel slide corrusel" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-md-5">
-                                <div>
-                                    <img src="img/actua-img.jpg" class="d-block" alt="...">
+                            <div class="col-lg-5 col-md-5 col-sm-12">
+                                <div class="actua-img">
+                                    <img src="img/actua-img.jpg" class="d-block img-fluid" alt="...">
                                 </div>
                             </div>
-
-                            <div class="col-md-7 align-self-center">
+                            <div class="col-lg-7 col-md-7 align-self-center">
                                 <div class="d-flex justify-content-start">
                                     <div class="actua-title">
                                         <h5 class="fs-30 fw-semibold">Tate no Yuusha</h5>
@@ -130,13 +128,12 @@
 
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-md-5">
-                                <div>
-                                    <img src="img/actua2-img.jpg" class="d-block" alt="...">
+                            <div class="col-lg-5 col-md-5 col-sm-12">
+                                <div class="actua-img">
+                                    <img src="img/actua2-img.jpg" class="d-block img-fluid" alt="...">
                                 </div>
                             </div>
-
-                            <div class="col-md-7 align-self-center">
+                            <div class="col-lg-7 col-md-7 align-self-center">
                                 <div class="d-flex justify-content-start">
                                     <div class="actua-title">
                                         <h5 class="fs-30 fw-semibold">Youkoso Jitsuryoku
@@ -158,13 +155,12 @@
 
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-md-5">
-                                <div>
-                                    <img src="img/actua3-img.jpg" class="d-block" alt="...">
+                            <div class="col-lg-5 col-md-5">
+                                <div class="actua-img">
+                                    <img src="img/actua3-img.jpg" class="d-block img-fluid" alt="...">
                                 </div>
                             </div>
-
-                            <div class="col-md-7 align-self-center">
+                            <div class="col-lg-7 col-md-7 align-self-center">
                                 <div class="d-flex justify-content-start">
                                     <div class="actua-title">
                                         <h5 class="fs-30 fw-semibold">Re:Zero Kara
@@ -205,21 +201,27 @@
     <section class="escribir-area" id="escribir-area">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6 escribir-img">
-                    <div class="">
+                <div class="col-md-6 col-sm-12 escribir-img">
+                    <div class="escribir-img-conten">
                         <img src="img/escribir.jpg" alt="" srcset="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-6 align-self-center">
+                <div class="col-md-6 col-sm-12 align-self-center escribir-abso">
                     <div class="d-flex justify-content-start">
                         <div class="escribir-conten">
-                            <h1 class="fs-60 fw-bold cf-white">¿Pensando en Escribir?</h1>
-                            <p class="cf-white">Descubre nuestra guía de autopublicación</p>
-                            <input class="form-control form-control-lg escribir-input cf-white fs-20 fw-medium"
-                                type="email" placeholder="Email">
-                            <button type="button"
-                                class="btn btn-secund btn-lg btn-block fw-bold fs-20">Escríbenos</button>
-                            <p class="cf-white pt-60">No hacemos Spam</p>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-6">
+                                    <h1 class="fs-60 fw-bold cf-white">¿Pensando en Escribir?</h1>
+                                    <p class="cf-white">Descubre nuestra guía de autopublicación</p>
+                                </div>
+                                <div class="col-md-12 col-sm-6">
+                                    <input class="form-control form-control-lg escribir-input cf-white fs-20 fw-medium"
+                                        type="email" placeholder="Email">
+                                    <button type="button"
+                                        class="btn btn-secund btn-lg btn-block fw-bold fs-20">Escríbenos</button>
+                                    <p class="cf-white pt-60 escribir-spam">No hacemos Spam</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -232,95 +234,94 @@
     <section class="capitulo-area pb-50 pt-100" id="capitulo-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
-                    <h1 class="fw-bold fs-40 pb-40">Ultimos Capítulos Actualizados
+                <div class="col-md-7 col-sm-12">
+                    <h1 class="fw-bold fs-40 pb-40 capitulo-title">Ultimos Capítulos Actualizados
                         Empieza esta Aventura!</h1>
                 </div>
-                <div class="col-md-5">
-                    <p class="fs-20">Descubre centenares de libros y manuscritos subidos por miembros de la comunidad
+                <div class="col-md-5 col-sm-12 align-self-center">
+                    <p class="fs-20 capitulo-contend">Descubre centenares de libros y manuscritos subidos por miembros
+                        de la comunidad
                     </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-4 col-6">
                     <div class="card card-capi">
-                        <div class="capitulo-img">
-                            <img src="img/capi1.jpg" class="card-img-top img-fluid" alt="...">
-                        </div>
+                        <figure class="capitulo-img">
+                            <img src="img/capi1.jpg"  class="card-img-top img-fluid" alt="..." title="tate">
+                        </figure>
                         <div class="card-body text-center">
-                            <h5>Tate no Yuusha(NL)</h5>
+                            <h5 class="capitulo-name">Tate no Yuusha (NL)</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-4 col-6">
                     <div class="card card-capi">
-                        <div class="capitulo-img">
-                            <img src="img/capi2.jpg" class="card-img-top" alt="...">
-                        </div>
+                        <figure class="capitulo-img">
+                            <img src="img/capi2.jpg" class="card-img-top" alt="..." title="konosuba">
+                        </figure>
                         <div class="card-body text-center">
-                            <h5>Konosuba!(NL)</h5>
+                            <h5 class="capitulo-name">Konosuba! (NL)</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-4 col-6">
                     <div class="card card-capi">
-                        <div class="capitulo-img">
-                            <img src="img/capi3.jpg" class="card-img-top" alt="...">
-                        </div>
+                        <figure class="capitulo-img">
+                            <img src="img/capi3.jpg" class="card-img-top" alt="..." title="oregairu">
+                        </figure>
                         <div class="card-body text-center">
-                            <h5>Oregairu(NL)</h5>
+                            <h5 class="capitulo-name">Oregairu (NL)</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-4 col-6">
                     <div class="card card-capi">
-                        <div class="capitulo-img">
-                            <img src="img/capi4.jpg" class="card-img-top" alt="...">
-                        </div>
+                        <figure class="capitulo-img">
+                            <img src="img/capi4.jpg" class="card-img-top" alt="..." title="danmachin">
+                        </figure>
                         <div class="card-body text-center">
-                            <h5>Danmachin(NL)</h5>
+                            <h5 class="capitulo-name">Danmachin (NL)</h5>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-4 col-6">
                     <div class="card card-capi">
-                        <div class="capitulo-img">
-                            <img src="img/capi5.jpg" class="card-img-top img-fluid" alt="...">
-                        </div>
+                        <figure class="capitulo-img">
+                            <img src="img/capi5.jpg" class="card-img-top img-fluid" alt="..." title="sao">
+                        </figure>
                         <div class="card-body text-center">
-                            <h5>Sword Art Online(NL)</h5>
+                            <h5 class="capitulo-name">Sword Art Online (NL)</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-4 col-6">
                     <div class="card card-capi">
-                        <div class="capitulo-img">
-                            <img src="img/capi6.jpg" class="card-img-top" alt="...">
-                        </div>
+                        <figure class="capitulo-img">
+                            <img src="img/capi6.jpg" class="card-img-top" alt="..." title="rezero">
+                        </figure>
                         <div class="card-body text-center">
-                            <h5>Re:Zero(NL)</h5>
+                            <h5 class="capitulo-name">Re:Zero (NL)</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-4 col-6">
                     <div class="card card-capi">
-                        <div class="capitulo-img">
-                            <img src="img/capi7.jpg" class="card-img-top" alt="...">
-                        </div>
+                        <figure class="capitulo-img">
+                            <img src="img/capi7.jpg" class="card-img-top" alt="..." title="arifureta">
+                        </figure>
                         <div class="card-body text-center">
-                            <h5>Arifureta(NL)</h5>
+                            <h5 class="capitulo-name">Arifureta (NL)</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-4 col-6">
                     <div class="card card-capi">
-                        <div class="capitulo-img">
-                            <img src="img/capi8.jpg" class="card-img-top" alt="...">
-                        </div>
+                        <figure class="capitulo-img">
+                            <img src="img/capi8.jpg" class="card-img-top" alt="..." title="class">
+                        </figure>
                         <div class="card-body text-center">
-                            <h5>Class Of Elite(NL)</h5>
+                            <h5 class="capitulo-name">Class Of Elite (NL)</h5>
                         </div>
                     </div>
                 </div>
@@ -333,12 +334,12 @@
     <section class="descubrir-area pb-50 pt-50">
         <div class="container">
             <div class="descubrir-title">
-                <h1 class="fw-bold fs-40 pb-40">Déjate
+                <h1 class="fw-bold fs-40 pb-40 descrubrir-title">Déjate
                     Descubrir</h1>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card card-descubrir" style="width: 18rem;">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="card card-descubrir card-descubrir3">
                         <div class="card-body card-body-descubrir">
                             <h4 class="card-title fw-bold">Concurso de Escritura</h4>
                             <p class="card-text pb-20">Participa en concursos de escritura gana premios y únete a
@@ -351,11 +352,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card card-descubrir" style="width: 18rem;">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="card card-descubrir card-descubrir3">
                         <div class="card-body card-body-descubrir">
                             <h4 class="card-title fw-bold">Comunidad</h4>
-                            <p class="card-text pb-70">Únete a comunidad de Wattpad para discutir intereses comunes y
+                            <p class="card-text pb-70 car-2">Únete a comunidad de Wattpad para discutir intereses
+                                comunes y
                                 temas
                                 con otros lectores y escritores.</p>
                             <div class="d-flex justify-content-end">
@@ -366,8 +368,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card card-descubrir" style="width: 18rem;">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="card card-descubrir card-descubrir3">
                         <div class="card-body card-body-descubrir">
                             <h4 class="card-title fw-bold">Socializa</h4>
                             <p class="card-text">Conecta con otros apasionados lectores y escritores, comenta
@@ -391,8 +393,8 @@
         <div class="container">
             <div class="row pb-40">
                 <div class="col-md-7">
-                    <h1 class="fw-bold fs-40">Conócenos, somos honestos, dedicados e implacables</h1>
-                    <h4 class="fw-bold cf-blue">ukiyo_novel@gmail.com</h4>
+                    <h1 class="fw-bold fs-40 footer-title">Conócenos, somos honestos, dedicados e implacables</h1>
+                    <h4 class="fw-bold cf-blue footer-txt">ukiyo_novel@gmail.com</h4>
                 </div>
                 <div class="col-md-5 align-self-center">
                     <p class="fs-18 margin-0">689 Rosebud Ave, Holtsville, 11443, NY
@@ -407,7 +409,7 @@
             </div>
             <div class="dropdown-divider pb-40"></div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-4">
                     <div class="footer-img pb-10">
                         <img src="img/help.svg" alt="" srcset="" class="img-fluid">
                     </div>
@@ -415,7 +417,7 @@
                         <h5>Centro de Ayuda</h5>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-4">
                     <div class="footer-img pb-10">
                         <img src="img/support.svg" alt="" srcset="" class="img-fluid">
                     </div>
@@ -423,7 +425,7 @@
                         <h5>Soporte</h5>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-4">
                     <div class="footer-img pb-10">
                         <img src="img/mail.svg" alt="" srcset="" class="img-fluid">
                     </div>
@@ -436,20 +438,17 @@
     </footer>
     <!-- End Footer Area -->
 
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
